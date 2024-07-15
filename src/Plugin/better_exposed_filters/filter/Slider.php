@@ -262,11 +262,11 @@ class Slider extends DefaultWidget {
 
           $valueHistogram = range($min, $max, $step);
 
-        // For some reason, range() sometimes creates an array with one
-        // missing element.
-        if (count($valueHistogram) < $histogramNumOfBins) {
-          array_push($valueHistogram, max($valueHistogram) + $step);
-        }
+          // For some reason, range() sometimes creates an array with one
+          // missing element.
+          if (count($valueHistogram) < $histogramNumOfBins) {
+            array_push($valueHistogram, max($valueHistogram) + $step);
+          }
 
           $numOfBins = max(array_keys($valueHistogram)) + 1;
           $numOfValues = count($values);

@@ -81,6 +81,6 @@ Example code:
      */
     class CustomFilterPlugin extends DefaultWidget {
 
-      ... Youre custom methods.
+      ... Youre custom methods .
 
     }

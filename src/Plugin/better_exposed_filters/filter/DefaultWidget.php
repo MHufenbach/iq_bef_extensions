@@ -4,9 +4,9 @@ namespace Drupal\iq_bef_extensions\Plugin\better_exposed_filters\filter;
 
 use Drupal\better_exposed_filters\Plugin\better_exposed_filters\filter\FilterWidgetBase;
 use Drupal\Core\Cache\Cache;
+use Drupal\search_api\Item\Item;
 use Drupal\search_api\Plugin\views\query\SearchApiQuery;
 use Drupal\views\Views;
-use Drupal\search_api\Item\Item;
 
 /**
  * Base class for widgets.
